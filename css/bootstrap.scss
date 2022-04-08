@@ -14,7 +14,8 @@ $custom-colors: (
         "text-color3":#7B2857,
         "text-color4":#AF0717,
         "text-color5":#EEB032,
-        "btn-color" :#D999CC
+        "btn-color" :#D999CC,
+         "background-color1":#38236D
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
