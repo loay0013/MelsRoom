@@ -9,7 +9,9 @@ $custom-colors: (
   "primary":#62F5E8, //Retter primary
   "minFarve":#ED1F79,  //Tilføjer minFarve
         "text-color1":#ffff,
-        "text-color2":#000000
+        "text-color2":#000000,
+        "background-color":#130C1F
+
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");

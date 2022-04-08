@@ -50,6 +50,13 @@ img {
 	width: 233px;
 	background-color:#62F5E8;
 }
- .img{
-	 background-image: url("images/Sun.svg");
- }
+.img{
+	bottom: -100px;
+}
+.section-mt{
+	margin-top: 10rem;
+}
+.background{
+	 background-image:url('/images/background.svg');
+	background-size: cover;
+}
