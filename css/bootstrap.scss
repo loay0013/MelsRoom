@@ -10,8 +10,11 @@ $custom-colors: (
   "minFarve":#ED1F79,  //Tilføjer minFarve
         "text-color1":#ffff,
         "text-color2":#000000,
-        "background-color":#130C1F
-
+        "background-color":#130C1F,
+        "text-color3":#7B2857,
+        "text-color4":#AF0717,
+        "text-color5":#EEB032,
+        "btn-color" :#D999CC
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
