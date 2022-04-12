@@ -64,5 +64,10 @@ img {
 	outline: solid #ED1F79 2px;
 }
 
-
+   @media screen and (min-width: 590px) {
+	   .w{
+		   height: 3px;
+		   width: 500px;
+	   }
+   }
 
