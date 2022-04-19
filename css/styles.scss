@@ -9,6 +9,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
+	font-family: "The Moonlight";
+	font-size: 5rem;
 }
 
 ul, ol {
@@ -24,6 +26,9 @@ li {
 p {
 	margin: 0;
 	padding: 0;
+	font-family:'Nunito';
+	font-size: 18px;
+
 }
 
 img {
@@ -63,7 +68,12 @@ img {
 .btn1{
 	outline: solid #ED1F79 2px;
 }
-
+.h1{
+	font-size: 4rem;
+}
+.top{
+	margin-top: 7rem;
+}
    @media screen and (min-width: 590px) {
 	   .w{
 		   height: 3px;
