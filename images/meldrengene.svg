@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="283" height="82" viewBox="0 0 283 82">
+  <defs>
+    <filter id="Mel_s_ROOM" x="0" y="0" width="283" height="82" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_40" data-name="Group 40" transform="translate(6.065 -97.678)">
+    <g transform="matrix(1, 0, 0, 1, -6.06, 97.68)" filter="url(#Mel_s_ROOM)">
+      <text id="Mel_s_ROOM-2" data-name="Mel´s ROOM" transform="translate(15 51)" fill="#ed1f79" font-size="52" font-family="FastInMyCar, Fast In My Car" letter-spacing="0.025em"><tspan x="0" y="0">Mel´s ROOM</tspan></text>
+    </g>
+    <text id="Mel_s_ROOM-3" data-name="Mel´s ROOM" transform="translate(9.935 150.678)" fill="#62f5e8" font-size="52" font-family="FastInMyCar, Fast In My Car" letter-spacing="0.025em"><tspan x="0" y="0">Mel´s ROOM</tspan></text>
+  </g>
+</svg>
